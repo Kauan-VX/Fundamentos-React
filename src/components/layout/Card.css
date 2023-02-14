@@ -1,0 +1,25 @@
+#Card {
+  background-color: red;
+  border: 3px solid red;
+  border-radius: 10px;
+  overflow: hidden;
+  color: #fff;
+  font-size: 1.5rem;
+  margin: 1.0rem;
+  min-height: 350px;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+#Card #Title {
+  padding: 10px 0px;
+}
+
+#Card #Content {
+  background-color: #fff;
+  color: #000;
+  padding: 10px;
+  border-radius: 5px;
+  flex: 1;
+}
